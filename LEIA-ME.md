@@ -49,17 +49,12 @@ DB_DATABASE=seu_banco_de_dados
 DB_USERNAME=seu_usuario
 DB_PASSWORD=sua_senha
 ```
-### 4. Gere a Chave da Aplicação
-Execute o comando abaixo para gerar a chave de criptografia da aplicação:
-```bash
-php artisan key:generate
-```
-### 5. Execute as Migrations
+### 4. Execute as Migrations
 Para criar as tabelas no banco de dados, execute:
 ```bash
 php artisan migrate
 ```
-### 6. Execute os Seeders
+### 5. Execute os Seeders
 Para popular o banco com dados de teste, execute:
 ```bash
 php artisan db:seed
